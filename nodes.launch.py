@@ -41,7 +41,7 @@ def generate_launch_description():
             output="screen",
             additional_env={
                 "POLYFLOW_NODE_ID": "69fbf08187fbb7d560a68cf8",
-                "POLYFLOW_PARAMETERS": json.dumps(json.loads('{"motor_id":"69fbefa087fbb7d560a679ff","mode":"speed","max_speed":6.2832,"reverse":false,"timeout_s":0}')),
+                "POLYFLOW_PARAMETERS": json.dumps(json.loads('{"motor_id":"69fbefa087fbb7d560a679ff","mode":"speed","max_speed":6.2832,"reverse":true,"timeout_s":0}')),
                 "POLYFLOW_CONFIGURATION": json.dumps(json.loads('{"namespace":null,"rate_hz":50,"lifecycle":null}')),
                 "POLYFLOW_PINS": json.dumps(json.loads('[{"pin_id":"69a3cd62b3f393789aad70a2:command","name":"command","direction":"input","msg_type":"std_msgs/Float64"}]')),
                 "POLYFLOW_INBOUND_CONNECTIONS": json.dumps(json.loads('[{"connection_id":"69fbf0a287fbb7d560a6903e","source_node_id":"69fbf08e87fbb7d560a68ee2","source_pin_id":"front_left_motor","target_pin_id":"command"}]')),
@@ -86,7 +86,7 @@ def generate_launch_description():
             output="screen",
             additional_env={
                 "POLYFLOW_NODE_ID": "69fbf0bf87fbb7d560a692e0",
-                "POLYFLOW_PARAMETERS": json.dumps(json.loads('{"device_index":0,"poll_rate_hz":60,"deadzone":0.05,"max_linear_speed":2,"max_angular_speed":1,"output_mode":"diff_drive"}')),
+                "POLYFLOW_PARAMETERS": json.dumps(json.loads('{"device_index":0,"poll_rate_hz":60,"deadzone":0.2,"max_linear_speed":2,"max_angular_speed":1,"output_mode":"diff_drive"}')),
                 "POLYFLOW_CONFIGURATION": json.dumps(json.loads('{"namespace":null,"rate_hz":60,"lifecycle":null}')),
                 "POLYFLOW_PINS": json.dumps(json.loads('[{"pin_id":"69a3c77bb3f393789aad6f62:axes","name":"axes","direction":"output","msg_type":"polyflow_msgs/GamepadAxes"},{"pin_id":"69a3c77bb3f393789aad6f62:buttons","name":"buttons","direction":"output","msg_type":"polyflow_msgs/GamepadButtons"},{"pin_id":"69a3c77bb3f393789aad6f62:cmd_vel","name":"cmd_vel","direction":"output","msg_type":"geometry_msgs/Twist"}]')),
                 "POLYFLOW_INBOUND_CONNECTIONS": json.dumps(json.loads('[]')),
