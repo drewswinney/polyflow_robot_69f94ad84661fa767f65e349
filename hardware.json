@@ -13,7 +13,7 @@
       "host": "p_69fbff7987fbb7d560a6bdd4_hiwonder_rrc_board",
       "params": {
         "port": 1,
-        "invert": true,
+        "invert": false,
         "debug_log": true
       }
     },
