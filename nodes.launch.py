@@ -11,7 +11,7 @@ def generate_launch_description():
             output="screen",
             additional_env={
                 "POLYFLOW_NODE_ID": "69fbf08087fbb7d560a68c8a",
-                "POLYFLOW_PARAMETERS": json.dumps(json.loads('{"motor_id":"69fbef9d87fbb7d560a6795c","mode":"speed","max_speed":6.2832,"reverse":false,"timeout_s":0}')),
+                "POLYFLOW_PARAMETERS": json.dumps(json.loads('{"motor_id":"69fbff9e87fbb7d560a6c052","mode":"speed","max_speed":6.2832,"reverse":false,"timeout_s":0}')),
                 "POLYFLOW_CONFIGURATION": json.dumps(json.loads('{"namespace":null,"rate_hz":50,"lifecycle":null}')),
                 "POLYFLOW_PINS": json.dumps(json.loads('[{"pin_id":"69a3cd62b3f393789aad70a2:command","name":"command","direction":"input","msg_type":"std_msgs/Float64"}]')),
                 "POLYFLOW_INBOUND_CONNECTIONS": json.dumps(json.loads('[{"connection_id":"69fbf0a487fbb7d560a690aa","source_node_id":"69fbf08e87fbb7d560a68ee2","source_pin_id":"rear_left_motor","target_pin_id":"command"}]')),
@@ -26,7 +26,7 @@ def generate_launch_description():
             output="screen",
             additional_env={
                 "POLYFLOW_NODE_ID": "69fbf08487fbb7d560a68d66",
-                "POLYFLOW_PARAMETERS": json.dumps(json.loads('{"motor_id":"69fbef5f87fbb7d560a675b0","mode":"speed","max_speed":6.2832,"reverse":false,"timeout_s":0}')),
+                "POLYFLOW_PARAMETERS": json.dumps(json.loads('{"motor_id":"69fbff9287fbb7d560a6bf31","mode":"speed","max_speed":6.2832,"reverse":false,"timeout_s":0}')),
                 "POLYFLOW_CONFIGURATION": json.dumps(json.loads('{"namespace":null,"rate_hz":50,"lifecycle":null}')),
                 "POLYFLOW_PINS": json.dumps(json.loads('[{"pin_id":"69a3cd62b3f393789aad70a2:command","name":"command","direction":"input","msg_type":"std_msgs/Float64"}]')),
                 "POLYFLOW_INBOUND_CONNECTIONS": json.dumps(json.loads('[{"connection_id":"69fbf0b487fbb7d560a691b6","source_node_id":"69fbf08e87fbb7d560a68ee2","source_pin_id":"front_right_motor","target_pin_id":"command"}]')),
@@ -41,7 +41,7 @@ def generate_launch_description():
             output="screen",
             additional_env={
                 "POLYFLOW_NODE_ID": "69fbf08187fbb7d560a68cf8",
-                "POLYFLOW_PARAMETERS": json.dumps(json.loads('{"motor_id":"69fbefa087fbb7d560a679ff","mode":"speed","max_speed":6.2832,"reverse":true,"timeout_s":0}')),
+                "POLYFLOW_PARAMETERS": json.dumps(json.loads('{"motor_id":"69fbffa287fbb7d560a6c0dd","mode":"speed","max_speed":6.2832,"reverse":true,"timeout_s":0}')),
                 "POLYFLOW_CONFIGURATION": json.dumps(json.loads('{"namespace":null,"rate_hz":50,"lifecycle":null}')),
                 "POLYFLOW_PINS": json.dumps(json.loads('[{"pin_id":"69a3cd62b3f393789aad70a2:command","name":"command","direction":"input","msg_type":"std_msgs/Float64"}]')),
                 "POLYFLOW_INBOUND_CONNECTIONS": json.dumps(json.loads('[{"connection_id":"69fbf0a287fbb7d560a6903e","source_node_id":"69fbf08e87fbb7d560a68ee2","source_pin_id":"front_left_motor","target_pin_id":"command"}]')),
@@ -56,7 +56,7 @@ def generate_launch_description():
             output="screen",
             additional_env={
                 "POLYFLOW_NODE_ID": "69fbf08a87fbb7d560a68e24",
-                "POLYFLOW_PARAMETERS": json.dumps(json.loads('{"motor_id":"69fbef9287fbb7d560a6781c","mode":"speed","max_speed":6.2832,"reverse":false,"timeout_s":0}')),
+                "POLYFLOW_PARAMETERS": json.dumps(json.loads('{"motor_id":"69fbff9787fbb7d560a6bfc0","mode":"speed","max_speed":6.2832,"reverse":false,"timeout_s":0}')),
                 "POLYFLOW_CONFIGURATION": json.dumps(json.loads('{"namespace":null,"rate_hz":50,"lifecycle":null}')),
                 "POLYFLOW_PINS": json.dumps(json.loads('[{"pin_id":"69a3cd62b3f393789aad70a2:command","name":"command","direction":"input","msg_type":"std_msgs/Float64"}]')),
                 "POLYFLOW_INBOUND_CONNECTIONS": json.dumps(json.loads('[{"connection_id":"69fbf0b687fbb7d560a69222","source_node_id":"69fbf08e87fbb7d560a68ee2","source_pin_id":"rear_right_motor","target_pin_id":"command"}]')),

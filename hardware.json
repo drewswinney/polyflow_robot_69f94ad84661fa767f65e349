@@ -1,48 +1,45 @@
 {
   "adapters": [
     {
-      "id": "p_d9b88d25_fde6_400a_ad8a_cdf1910ee176_hiwonder_rrc_board",
+      "id": "p_69fbff7987fbb7d560a6bdd4_hiwonder_rrc_board",
       "name": "hiwonder_rrc_board",
       "params": {}
     }
   ],
   "drivers": [
     {
-      "id": "69fbef5f87fbb7d560a675b0",
+      "id": "69fbff9287fbb7d560a6bf31",
       "name": "hiwonder_rrc_motor",
-      "host": "p_d9b88d25_fde6_400a_ad8a_cdf1910ee176_hiwonder_rrc_board",
+      "host": "p_69fbff7987fbb7d560a6bdd4_hiwonder_rrc_board",
       "params": {
         "port": 1,
-        "gear_ratio": 60,
-        "invert": false,
+        "invert": true,
         "debug_log": true
       }
     },
     {
-      "id": "69fbef9287fbb7d560a6781c",
+      "id": "69fbff9787fbb7d560a6bfc0",
       "name": "hiwonder_rrc_motor",
-      "host": "p_d9b88d25_fde6_400a_ad8a_cdf1910ee176_hiwonder_rrc_board",
+      "host": "p_69fbff7987fbb7d560a6bdd4_hiwonder_rrc_board",
       "params": {
         "port": 2,
-        "gear_ratio": 60
+        "invert": true
       }
     },
     {
-      "id": "69fbef9d87fbb7d560a6795c",
+      "id": "69fbff9e87fbb7d560a6c052",
       "name": "hiwonder_rrc_motor",
-      "host": "p_d9b88d25_fde6_400a_ad8a_cdf1910ee176_hiwonder_rrc_board",
+      "host": "p_69fbff7987fbb7d560a6bdd4_hiwonder_rrc_board",
       "params": {
-        "port": 3,
-        "gear_ratio": 60
+        "port": 3
       }
     },
     {
-      "id": "69fbefa087fbb7d560a679ff",
+      "id": "69fbffa287fbb7d560a6c0dd",
       "name": "hiwonder_rrc_motor",
-      "host": "p_d9b88d25_fde6_400a_ad8a_cdf1910ee176_hiwonder_rrc_board",
+      "host": "p_69fbff7987fbb7d560a6bdd4_hiwonder_rrc_board",
       "params": {
-        "port": 4,
-        "gear_ratio": 60,
+        "port": 1,
         "debug_log": true
       }
     }
