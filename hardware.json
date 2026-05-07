@@ -39,7 +39,7 @@
       "name": "hiwonder_rrc_motor",
       "host": "p_69fbff7987fbb7d560a6bdd4_hiwonder_rrc_board",
       "params": {
-        "port": 1,
+        "port": 4,
         "debug_log": true
       }
     }
